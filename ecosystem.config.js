@@ -7,7 +7,7 @@ module.exports = {
     production: {
       user: 'ubuntu',
       host: 'ec2-3-90-243-72.compute-1.amazonaws.com',
-      key: 'tutorial.pem',
+      key: '~/ssh/tutorial.pem',
       ref: 'origin/main',
       repo: 'git@github.com:VintageHighTech/awstest.git',
       path: '/home/ubuntu',
